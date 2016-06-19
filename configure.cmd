@@ -1,10 +1,10 @@
 @echo off
 
 :: Windows SDK Include directory. No quotation marks.
-set SDK_INCLUDE_DIR=C:\Program Files (x86)\Windows Kits\8.1\Include
+set SDK_INCLUDE_DIR=D:\dev\tools\ms\SDKs\8.1\Include
 
 :: Visual Studio directory. Quotation marks.
-set VS_DIR="D:\dev\ms\Visual Studio 12.0"
+set VS_DIR="D:\dev\tools\ms\Microsoft Visual Studio 14.0"
 
 :: Target architecture, AMD64 (64-bit) or I386 (32-bit)
 set CPU=AMD64
