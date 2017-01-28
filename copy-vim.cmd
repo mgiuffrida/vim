@@ -1,6 +1,6 @@
 @set SRC=vim
-:: Necessary for running install.exe
-@set DEST=vim74
+:: DEST match version number in order to run install.exe
+@set DEST=vim80
 
 xcopy %SRC%\runtime %DEST% /D /S /H /I /Y
 xcopy %SRC%\src\xxd\xxd.exe %DEST% /D /Y
